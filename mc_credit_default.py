@@ -62,5 +62,7 @@ plt.xscale("log")
 plt.legend()
 plt.grid()
 
-plt.show()
 
+
+plt.savefig("convergence.png", dpi=300, bbox_inches="tight")
+plt.show()
